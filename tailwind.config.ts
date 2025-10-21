@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -13,6 +18,11 @@ export default {
       },
     },
     extend: {
+      // <-- ADICIONE ESSA PARTE
+      screens: {
+        xs: "426px", // Define 'xs' como 426px para cima
+      },
+      // ---
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -49,7 +59,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -57,9 +67,9 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       boxShadow: {
-        'elegant': 'var(--shadow-md)',
-        'elevated': 'var(--shadow-lg)',
-        'glow': 'var(--shadow-glow)',
+        elegant: "var(--shadow-md)",
+        elevated: "var(--shadow-lg)",
+        glow: "var(--shadow-glow)",
       },
       keyframes: {
         "accordion-down": {

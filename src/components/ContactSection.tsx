@@ -22,36 +22,46 @@ export const ContactSection = () => {
             <Button
               asChild
               variant="outline"
-              className="w-full justify-start hover-lift"
+              className="w-full justify-start hover-lift h-auto" // Manter h-auto
               aria-label="GitHub Profile"
             >
               <a href="https://github.com/gabrielvilela12" target="_blank" rel="noopener noreferrer">
-                <Github className="mr-3 h-5 w-5" />
-                github.com/gabrielvilela12
+                <Github className="mr-3 h-5 w-5 flex-shrink-0" />
+                {/* flex-1: Faz o span tentar ocupar o espaço disponível.
+                  min-w-0: Permite que o span encolha abaixo do tamanho do seu conteúdo.
+                  break-all: Força a quebra do texto.
+                */}
+                <span className="flex-1 min-w-0 break-all">
+                  github.com/gabrielvilela12
+                </span>
               </a>
             </Button>
             
             <Button
               asChild
               variant="outline"
-              className="w-full justify-start hover-lift"
+              className="w-full justify-start hover-lift h-auto"
               aria-label="LinkedIn Profile"
             >
               <a href="https://www.linkedin.com/in/gabriel-vilela-6a02a72b7" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="mr-3 h-5 w-5" />
-                linkedin.com/in/gabriel-vilela-6a02a72b7
+                <Linkedin className="mr-3 h-5 w-5 flex-shrink-0" />
+                <span className="flex-1 min-w-0 break-all">
+                  linkedin.com/in/gabriel-vilela...
+                </span>
               </a>
             </Button>
             
             <Button
               asChild
               variant="outline"
-              className="w-full justify-start hover-lift"
+              className="w-full justify-start hover-lift h-auto"
               aria-label="Email Contact"
             >
               <a href="mailto:gabrielvilela.dev@gmail.com">
-                <Mail className="mr-3 h-5 w-5" />
-                gabrielvilela.dev@gmail.com
+                <Mail className="mr-3 h-5 w-5 flex-shrink-0" />
+                <span className="flex-1 min-w-0 break-all">
+                  gabrielvilela.dev@gmail.com
+                </span>
               </a>
             </Button>
           </div>

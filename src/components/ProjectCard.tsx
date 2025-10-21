@@ -46,13 +46,13 @@ export const ProjectCard = ({ image, titleKey, descriptionKey, tagsKey, githubUr
         </div>
       </CardContent>
       
-      <CardFooter className="gap-3">
+      {/* AQUI ESTÁ A MUDANÇA */}
+      <CardFooter className="flex flex-col xl:flex-row gap-3 p-3">
         {githubUrl && (
           <Button
             asChild
             variant="outline"
-            size="sm"
-            className="flex-1"
+            className="flex-1 md:px-4 md:py-1" // flex-1 agora funciona bem com flex-col e flex-row
             aria-label={`${t('projects.viewCode')} - ${t(titleKey)}`}
           >
             <a href={githubUrl} target="_blank" rel="noopener noreferrer">
@@ -64,8 +64,8 @@ export const ProjectCard = ({ image, titleKey, descriptionKey, tagsKey, githubUr
         {demoUrl && (
           <Button
             asChild
-            size="sm"
-            className="flex-1 bg-gradient-primary"
+            
+            className="flex-1 bg-gradient-primary md:px-4 md:py-1" // flex-1 agora funciona bem com flex-col e flex-row
             aria-label={`${t('projects.liveDemo')} - ${t(titleKey)}`}
           >
             <a href={demoUrl} target="_blank" rel="noopener noreferrer">

@@ -14,7 +14,7 @@ const translations = {
     "nav.about": "About",
     "nav.projects": "Projects",
     "nav.contact": "Contact", // Hero Section
-    "hero.title": "John Doe – Full Stack Developer",
+    "hero.title": "GVilela – Full Stack Developer",
     "hero.subtitle":
       "Building innovative solutions with clean code and modern design",
     "hero.cta.resume": "Download Resume",
@@ -58,7 +58,7 @@ const translations = {
       "Message sent successfully! I will get back to you soon.",
     "contact.form.error": "Failed to send message. Please try again.",
     "contact.social.title": "Connect with me", // Footer
-    "footer.rights": "© 2024 John Doe. All rights reserved.",
+    "footer.rights": "© 2024 GVilela. All rights reserved.",
     "footer.built": "Built with React & TypeScript",
   } /* Português */,
 
@@ -67,7 +67,7 @@ const translations = {
     "nav.about": "Sobre",
     "nav.projects": "Projetos",
     "nav.contact": "Contato", // Seção Hero
-    "hero.title": "John Doe – Desenvolvedor Full Stack",
+    "hero.title": "GVilela – Desenvolvedor Full Stack",
     "hero.subtitle":
       "Construindo soluções inovadoras com código limpo e design moderno",
     "hero.cta.resume": "Baixar Currículo",
@@ -85,11 +85,11 @@ const translations = {
     "project1.tags": "React, TypeScript, Vite, Gestão Financeira",
     "project2.title": "Xadrez em C#",
     "project2.description":
-      "Uma implementação completa de jogo de xadrez em C# com princípios de programação orientada a objetos. Inclui validação de movimentos das peças, detecção de xeque e gerenciamento de estado do jogo.",
+      "Uma implementação completa de jogo de xadrez em C# com princípios de programação orientada a objetos. Inclui validação de movimentos das peças, detecção de xeque e gerenciamento de estado do jogo. Desenvolvivo através de diversas classes de peças individuais que herdam de uma classe base, garantindo código limpo e reutilizável.",
     "project2.tags": "C#, POO, Desenvolvimento de Jogos",
     "project3.title": "FirstStep",
     "project3.description":
-      "Um projeto para a VIVO para facilitar a trajetória de novos funcionários na empresa. Possui interfaces separadas para onboardees e buddies, acompanhamento de progresso, gerenciamento de cursos e central de documentos.",
+      "Um projeto para a VIVO para facilitar a trajetória de novos funcionários na empresa. Possui interfaces separadas para onboardees e buddies, acompanhamento de progresso, gerenciamento de cursos e central de documentos. Garantindo uma experiência de integração suave e eficiente para novos colaboradores.",
     "project3.tags": "React, TypeScript, Onboarding, Dashboard", // Seção Sobre
     "about.title": "Sobre Mim",
     "about.text":
@@ -112,7 +112,7 @@ const translations = {
     "contact.form.error":
       "Falha ao enviar mensagem. Por favor, tente novamente.",
     "contact.social.title": "Conecte-se comigo", // Rodapé
-    "footer.rights": "© 2024 John Doe. Todos os direitos reservados.",
+    "footer.rights": "© 2024 GVilela. Todos os direitos reservados.",
     "footer.built": "Construído com React & TypeScript",
   },
 };

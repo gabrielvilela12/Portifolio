@@ -42,10 +42,10 @@ export const AboutSection = () => {
             <div className="relative w-80 h-80 rounded-2xl overflow-hidden shadow-elevated hover-glow transition-smooth">
               <img
                 src={profileImg}
-                alt="John Doe"
-                className="w-full h-full object-cover"
+                alt="GVilela"
+                className="w-full  object-cover "
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-card/60 to-transparent" />
+              
             </div>
           </div>
         </div>

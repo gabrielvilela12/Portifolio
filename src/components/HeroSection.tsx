@@ -24,11 +24,11 @@ export const HeroSection = () => {
       
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight animate-fade-in-up opacity-0 [animation-delay:0.2s]">
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight animate-fade-in-up opacity-0 [animation-delay:0.2s]">
             <span className="text-gradient-primary">{t('hero.title')}</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up opacity-0 animation-delay-300">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up opacity-0 animation-delay-300">
             {t('hero.subtitle')}
           </p>
           
@@ -49,7 +49,7 @@ export const HeroSection = () => {
               asChild
               size="lg"
               variant="outline"
-              className="hover-lift border-foreground/20 hover:bg-foreground/5"
+              className="hover-lift border-foreground/20 hover:bg-foreground/5 hover:text-blue-600"
               aria-label={t('hero.cta.github')}
             >
               <a href="https://github.com" target="_blank" rel="noopener noreferrer">
@@ -62,7 +62,7 @@ export const HeroSection = () => {
               asChild
               size="lg"
               variant="outline"
-              className="hover-lift border-foreground/20 hover:bg-foreground/5"
+              className="hover-lift border-foreground/20 hover:bg-foreground/5 hover:text-blue-600"
               aria-label={t('hero.cta.linkedin')}
             >
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">

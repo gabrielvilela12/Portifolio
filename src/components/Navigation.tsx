@@ -37,7 +37,7 @@ export const Navigation = () => {
             className="text-xl font-bold text-gradient-primary hover:opacity-80 transition-smooth"
             aria-label="Back to top"
           >
-            JD
+            GVilela
           </button>
           
           <div className="flex items-center gap-2 md:gap-6">
