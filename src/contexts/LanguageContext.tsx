@@ -32,11 +32,11 @@ const translations = {
     "project1.tags": "React, TypeScript, Vite, Financial Management",
     "project2.title": "Chess in C#",
     "project2.description":
-      "A complete chess game implementation in C# with object-oriented programming principles. Features include piece movement validation, check detection, and game state management.",
+      "A complete chess game implementation in C# with object-oriented programming principles. Features include piece movement validation, check detection, and game state management. Developed using several individual piece classes that inherit from a base class, ensuring clean and reusable code.", // <-- CORRIGIDO AQUI
     "project2.tags": "C#, OOP, Game Development",
     "project3.title": "FirstStep",
     "project3.description":
-      "A project for VIVO to facilitate the onboarding journey of new employees. Features separate interfaces for onboardees and buddies, progress tracking, course management, and document center.",
+      "A project for VIVO to facilitate the onboarding journey of new employees. Features separate interfaces for onboardees and buddies, progress tracking, course management, and document center. Ensuring a smooth and efficient integration experience for new collaborators.", // <-- CORRIGIDO AQUI
     "project3.tags": "React, TypeScript, Onboarding, Dashboard", // About Section
     "about.title": "About Me",
     "about.text":
@@ -85,7 +85,7 @@ const translations = {
     "project1.tags": "React, TypeScript, Vite, Gestão Financeira",
     "project2.title": "Xadrez em C#",
     "project2.description":
-      "Uma implementação completa de jogo de xadrez em C# com princípios de programação orientada a objetos. Inclui validação de movimentos das peças, detecção de xeque e gerenciamento de estado do jogo. Desenvolvivo através de diversas classes de peças individuais que herdam de uma classe base, garantindo código limpo e reutilizável.",
+      "Uma implementação completa de jogo de xadrez em C# com princípios de programação orientada a objetos. Inclui validação de movimentos das peças, detecção de xeque e gerenciamento de estado do jogo. Desenvolvido através de diversas classes de peças individuais que herdam de uma classe base, garantindo código limpo e reutilizável.", // <-- CORRIGIDO O TYPO AQUI
     "project2.tags": "C#, POO, Desenvolvimento de Jogos",
     "project3.title": "FirstStep",
     "project3.description":
