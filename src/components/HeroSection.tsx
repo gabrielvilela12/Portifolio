@@ -39,7 +39,7 @@ export const HeroSection = () => {
               className="bg-gradient-primary hover:opacity-90 transition-smooth shadow-glow"
               aria-label={t('hero.cta.resume')}
             >
-              <a href="/resume.pdf" download="Curriculo-GVilela.pdf">
+              <a href="/Curriculo-GVilela.pdf" download="Curriculo-GVilela.pdf">
                 <Download className="mr-2 h-5 w-5" />
                 {t('hero.cta.resume')}
               </a>
