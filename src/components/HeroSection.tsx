@@ -39,7 +39,7 @@ export const HeroSection = () => {
               className="bg-gradient-primary hover:opacity-90 transition-smooth shadow-glow"
               aria-label={t('hero.cta.resume')}
             >
-              <a href="/resume.pdf" download="John_Doe_Resume.pdf">
+              <a href="/resume.pdf" download="Curriculo-GVilela.pdf">
                 <Download className="mr-2 h-5 w-5" />
                 {t('hero.cta.resume')}
               </a>
@@ -52,7 +52,7 @@ export const HeroSection = () => {
               className="hover-lift border-foreground/20 hover:bg-foreground/5 hover:text-blue-600"
               aria-label={t('hero.cta.github')}
             >
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/gabrielvilela12" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-5 w-5" />
                 {t('hero.cta.github')}
               </a>
@@ -65,7 +65,7 @@ export const HeroSection = () => {
               className="hover-lift border-foreground/20 hover:bg-foreground/5 hover:text-blue-600"
               aria-label={t('hero.cta.linkedin')}
             >
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/gabriel-vilela-6a02a72b7" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-5 w-5" />
                 {t('hero.cta.linkedin')}
               </a>
